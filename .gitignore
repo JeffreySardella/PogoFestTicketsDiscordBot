@@ -1,0 +1,27 @@
+# Environment & secrets
+.env
+
+# Bot runtime data
+bot_data.db
+ticket_state.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / dist
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
