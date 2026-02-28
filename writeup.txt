@@ -1,0 +1,45 @@
+🎟️ PogoFestTicketsDiscordBot
+The ultimate notification tool for Pokémon GO Fest 2026.
+
+Never miss a ticket drop again. PogoFestTicketsDiscordBot monitors official Niantic and Pokémon GO event pages to alert your community the second tickets for Chicago, Tokyo, Copenhagen, or Global events go live.
+
+### Key Features
+Real-time Monitoring: Scans official sources every few minutes for updates.
+
+Instant Alerts: Sends a @everyone or custom role ping in your designated channel.
+
+Direct Links: Includes the official purchase URL to save you time navigating menus.
+
+Clean Interface: Simple slash commands to set up and test notifications.
+
+### How It Works
+The bot uses a "watch-only" script to check the status of the Pokémon GO Live events page. It looks for specific changes in the HTML (like a "Sold Out" button turning into a "Buy Now" button) and triggers a message to your Discord server immediately.
+
+⚖️ Legal & Compliance Note
+This bot is designed for informational purposes only.
+
+No Auto-Buying: This bot does not add tickets to carts or bypass checkout queues. It does not collect user payment information or login credentials.
+
+Fair Play: We advocate for the Pokémon GO community to have a fair chance at tickets. This bot is a tool to help fans get to the site quickly, not to scalp or hoard tickets.
+
+Terms of Service: This bot complies with Discord’s Developer Terms of Service and respects the robots.txt guidelines of the monitored sites.
+
+### Quick Setup
+Invite the bot to your server.
+
+Use /set-channel to pick where alerts should go.
+
+Use /ping-role to select which group should be notified.
+
+Sit back and wait for the "Tickets are Live!" message!
+
+Important Reminder for 2026
+Since we are celebrating the 10th Anniversary of Pokémon GO, demand is expected to be record-breaking.
+
+Chicago: June 5–7
+
+Tokyo: May 29 – June 1
+
+Copenhagen: June 12–14
+
+Global: Stay tuned!
