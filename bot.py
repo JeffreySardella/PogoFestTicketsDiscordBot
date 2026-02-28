@@ -96,6 +96,7 @@ async def check_tickets():
                 await channel.send(
                     content=f"🚨 {ping} **TICKETS ARE LIVE!** 🚨",
                     embed=embed,
+                    allowed_mentions=discord.AllowedMentions(everyone=True, roles=True),
                 )
             except discord.Forbidden:
                 logger.warning("No permission to send in channel %s (guild %s)", channel_id, config.get("guild_id"))
@@ -226,7 +227,11 @@ async def test_alert(interaction: discord.Interaction):
     embed.set_footer(text="Tickets sell out in minutes. Good luck, Trainer!")
 
     try:
-        await channel.send(content=f"🚨 {ping} **TEST ALERT** 🚨", embed=embed)
+        await channel.send(
+            content=f"🚨 {ping} **TEST ALERT** 🚨",
+            embed=embed,
+            allowed_mentions=discord.AllowedMentions(everyone=True, roles=True),
+        )
         await interaction.response.send_message("✅ Test alert sent!", ephemeral=True)
     except discord.Forbidden:
         await interaction.response.send_message(
